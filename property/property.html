@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Dream Property</title>
+    <link rel="stylesheet" href="property.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+     <header>
+    <!-- banner section -->
+    <div class="banner">
+        <div class="close-btn">
+                <img src="/images/closeIcon.png" alt="">
+            </div>
+        <div class="b-details container">
+            <p>✨Discover Your Dream Property with Hayle</p>
+            <a href="#">Learn More</a>
+        </div>
+
+    </div>
+    <!-- nav-bar section -->
+     <div class="head">
+    <div class="hamburger-sign container">
+       <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
+       <i class="fa-solid fa-close" data-visible="false"></i>
+    </div>
+     <div class="menu container">
+        <div class="logo">
+            <a href="/Home/index.html"> <img src="/images/logo.png" alt="logo"></a>
+            <a href="/Home/index.html"><h2>Hayle Real State</h2></a>
+        </div>
+        <nav class="menu-links">
+            <ul>
+                <li><a href="/Home/index.html" class="home">Home</a></li>
+                <li><a href="/About/aboutUS.html" >About Us</a></li>
+                <li><a href="/property/property.html">Properties</a></li>
+                <li><a href="/Services/services.html">Services</a></li>
+                <li><a href="/Dev/dev.html">Dev</a></li>
+            </ul>
+        </nav>
+        <a href="/Contact Us/contactUs.html"><button class="contact-btn">Contact Us</button></a>
+
+        <nav class="menu-links mobile-menu">
+            <ul class="mobile-menu-ul" data-visible="false">
+                <li><a href="/Home/index.html" class="home">Home</a></li>
+                <li><a href="/About/aboutUS.html">About Us</a></li>
+                <li><a href="/property/property/property.html">Properties</a></li>
+                <li><a href="/Services/services.html">Services</a></li>
+                <li><a href="/Dev/dev.html">Dev</a></li>
+                <button class="contactM-btn">Contact Us</button>
+                <button class="contactM-btn">Contact Us</button>
+            </ul>
+        </nav>
+     </div>
+     </div>
+   </header>
+
+   <!-- hero property section -->
+    <section class="hero-bg">
+        <div class="hero-section container">
+            <h2>Find Your Dream Property</h2>
+            <p>Welcome to Hayle, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey </p>
+        </div>
+         </section>
+
+
+         <!-- Search-bar-and-category-selection -->
+          <section class="search-categories container">
+        <div class="search-bar-section">
+            <input type="search"  placeholder="Search For A Property">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>Find Property</button>
+        </div>
+        <div class="categories">
+
+            <!-- category 01 -->
+                <div class="category">
+                    <i class="fa-solid fa-location-dot"></i>
+                <select id="Location">
+                     <option value="" disabled selected hidden>Location</option>
+                    <option value="development">Mogadishu</option>
+                    <option value="design">Hargaysa</option>
+                    <option value="sales">Kismaayo</option>
+                    <option value="sales">Marka</option>
+                    <option value="sales">Beledwayne</option>
+                </select>
+                </div>
+
+                 <!-- category 02 -->
+                 <div class="category">
+                      <i class="fa-solid fa-building"></i>
+                <select id="Location">
+                     <option value="" disabled selected hidden>Property Type</option>
+                    <option value="Residential Property">Residential Property</option>
+                    <option value="Mixed-Use Property">Mixed-Use Property</option>
+                    <option value="Special Purpose Property">Special Purpose Property</option>
+                    <option value="Recreational Property">Recreational Property</option>
+                    <option value="Hospitality Property">Hospitality Property</option>
+                </select>
+                </div>
+
+                 <!-- category 03 -->
+                 <div class="category">
+                      <img src="/images/pricing-icon.png" alt="">
+                <select id="Location">
+                     <option value="" disabled selected hidden>Pricing Range</option>
+                    <option value="$1,500,000">$1,500,000</option>
+                    <option value="$100,000">$100,000</option>
+                    <option value="$70,000">$70,000</option>
+                    <option value="$50,000">$50,000</option>
+                    <option value="$30,000">$30,000</option>
+                </select>
+                </div>
+                 <!-- category 04 -->
+                 <div class="category">
+                      
+                    <img src="/images/Propert-size.png" alt="">
+                <select id="Location">
+                     <option value="" disabled selected hidden>Property Size</option>
+                    <option value="Up to 5,000 square feet">Up to 5,000 square feet</option>
+                    <option value="5,000 to 10,000 square feet">5,000 to 10,000 square feet</option>
+                    <option value="10,000 to 20,000 square feet">10,000 to 20,000 square feet</option>
+                    <option value="1 to 5 acres">1 to 5 acres</option>
+                    <option value="10 to 50 acres">10 to 50 acres</option>
+                </select>
+                </div>
+
+                 <!-- category 05 -->
+                 <div class="category">
+                     <i class="fa-regular fa-calendar"></i>
+                <select id="Location">
+                     <option value="" disabled selected hidden>Build Year</option>
+                    <option value="2000-2005">2000-2005</option>
+                    <option value="2006-2010">2006-2010</option>
+                    <option value="2011-2015">2011-2015</option>
+                    <option value="2016-2020">2016-2020</option>
+                    <option value="2021-2024">2021-2024</option>
+                </select>
+                </div>
+        </div>
+    </section>
+
+
+      <!-- features properties -->
+      <section>
+        <div class="featured-property container">
+            <div class="property-quo">
+                <h2>Discover a World of Possibilities</h2>
+                <div class="p">
+                <p>Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with <br> your vision of home</p>
+                </div>
+            </div>
+            <div class="properties">
+
+                <!-- property 01 -->
+            <div class="property mobile-device">
+                <img src="/images/property image 1.png" alt="property-image">
+                <p class="property-des-1">Coastal Escapes - Where Waves Beckon</p>
+                <h4 class="propert-title">Seaside Serenity Villa</h4>
+                <p class="property-description">Wake up to the soothing melody of waves. This beachfront villa offers... <span>Read More</span></p>
+                <div class="property-price-view">
+                    <div class="p-price">
+                        <span>Price</span>
+                       <p>$1,250,000</p>
+                    </div>
+                    <a href="/property/property-details.html" class="view-details">View Property Details</a>
+                </div>
+            </div>
+
+            <!-- property 02 -->
+            <div class="property mobile-device">
+                <img src="/images/Image (1).png" alt="property-image">
+                <p class="property-des-1">Urban Oasis - Life in the Heart of the City</p>
+                <h4 class="propert-title">Metropolitan Haven</h4>
+                <p class="property-description">Immerse yourself in the energy of the city. This modern apartment in the heart... <span>Read More</span></p>
+                <div class="property-price-view">
+                    <div class="p-price">
+                        <span>Price</span>
+                        <p>$650.000</p>
+                    </div>
+                    <a href="/property/property-details.html" class="view-details">View Property Details</a>
+                </div>
+            </div>
+            <!-- property 03 -->
+            <div class="property">
+                <img src="/images/Image (2).png" alt="property-image">
+                <p class="property-des-1">Countryside Charm - Escape to Nature's Embrace</p>
+                <h4 class="propert-title">Rustic Retreat Cottage</h4>
+                <p class="property-description">Find tranquility in the countryside. This charming cottage is nestled amidst rolling hills...<span>Read More</span></p>
+                <div class="property-price-view">
+                    <div class="p-price">
+                        <span>Price</span>
+                        <p>$350.000</p>
+                    </div>
+                    <a href="/property/property-details.html" class="view-details">View Property Details</a>
+                </div>
+            </div>
+
+            </div>
+            <div class="property-count">
+                <p>01 of 60</p>
+                <div class="arrows">
+                    <div class="arrow">
+                        <img src="/images/arrow-1png.png" alt="arrow">
+                        
+                    </div>
+                    <div class="arrow">
+                        <img src="/images/arrow 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+    <!-- Property form -->
+      <section class="property-form container">
+        <div class="top-section">
+            <img src="/images/Abstract Design (2).png" alt="">
+            <div class="inside-top">
+                <h2>Let's Make it Happen</h2>
+                <p>Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.</p>
+            </div>
+        </div>
+            <!-- form section -->
+        <form action="property">
+            <div class="form-group">
+            <!-- frist Name -->
+            <div class="input-label">
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="Enter First Name" class="form-input" required>
+            </div>
+            <!-- last Name -->
+            <div class="input-label">
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Enter Last Name" class="form-input" required>
+            </div>
+
+            <!-- Email -->
+             <div class="input-label">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Enter Your Email" class="form-input" required>
+            </div>
+            <!-- phone -->
+             <div class="input-label">
+                <label for="phone">Phone</label>
+                <input type="text" placeholder="Enter Phone Number" class="form-input" required>
+            </div>
+
+             <!-- prefered location -->
+                <div class="input-label">
+                    <label for="location">Prefered Location</label>
+                <select id="Location">
+                    <option value="" disabled selected hidden>Location</option>
+                    <option value="Mogadishu">Mogadishu</option>
+                    <option value="Garoowe">Garoowe</option>
+                    <option value="Hargaysa">Hargaysa</option>
+                    <option value="Kismaayo">Kismaayo</option>
+                    <option value="Marka">Marka</option>
+                    <option value="Beledwayne">Beledwayne</option>
+                    <option value="Garoowe">Bosaaso</option>
+                </select>
+                </div>
+
+                <!-- Property Type  -->
+                 <div class="input-label">
+                    <label for="property-type">Property Type</label>
+                <select id="property-type">
+                     <option value="" disabled selected hidden>Property Type</option>
+                    <option value="Residential Property">Residential Property</option>
+                    <option value="Mixed-Use Property">Mixed-Use Property</option>
+                    <option value="Special Purpose Property">Special Purpose Property</option>
+                    <option value="Recreational Property">Recreational Property</option>
+                    <option value="Hospitality Property">Hospitality Property</option>
+                </select>
+                </div>
+
+
+                 <!-- No. of bathrooms  -->
+                 <div class="input-label">
+                    <label for="property-type">No. of Bathrooms</label>
+                <select id="property-type">
+                     <option value="" disabled selected hidden>No. of Bathrooms</option>
+                  <option value="02">02 Bathrooms</option>
+                  <option value="03">03 Bathrooms</option>
+                  <option value="04">04 Bathrooms</option>
+                  <option value="05">05 Bathrooms</option>
+                  <option value="06">06 Bathrooms</option>
+                  <option value="07">07 Bathrooms</option>
+                </select>
+                </div>
+
+                <!-- No. of bedrooms  -->
+                 <div class="input-label">
+                    <label for="property-type">No. of Bedhrooms</label>
+                <select id="property-type">
+                     <option value="" disabled selected hidden>No. of Bed rooms</option>
+                  <option value="02">02 Bedrooms</option>
+                  <option value="03">03 Bedrooms</option>
+                  <option value="04">04 Bedooms</option>
+                  <option value="05">05 Bedrooms</option>
+                  <option value="06">06 Bedrooms</option>
+                  <option value="07">07 Bedrooms</option>
+                </select>
+                </div>
+
+                  <!-- budget  -->
+                 <div class="input-label budget">
+                    <label for="property-type">Budget</label>
+                <select id="property-type">
+                     <option value="" disabled selected hidden>Budget</option>
+                  <option value="10,000">$10,000</option>
+                  <option value="20,000">$20,000</option>
+                  <option value="30,000">$30,000</option>
+                  <option value="40,000">$40,000</option>
+                  <option value="50,000">$50,000</option>
+                  <option value="100,000">$100,000</option>
+                  <option value="500,000">$500,000</option>
+
+                </select>
+                </div>
+
+                <!-- phone -->
+             <div class="input-label">
+                <i class="fa-solid fa-phone"></i>
+                <label for="phone">Preferred Contact Method</label>
+                <input type="text" placeholder="Enter Your Number" class="form-input p-phone-number" required>
+            </div>
+
+              <!-- Email -->
+             <div class="input-label">
+                 <i class="fa-regular fa-envelope"></i>
+                <label for="Email" style="color: #1A1A1A;"> Email</label>
+                <input type="email" placeholder="Enter Your Email" class="form-input p-phone-number" required>
+            </div>
+
+             <!-- Massage -->
+             <div class="input-label textarea">
+                <label for="Massage">Massage</label>
+                <textarea rows="8" placeholder="Write for me"></textarea>
+            </div>
+            </div>
+            
+            <div class="checkbox">
+                    <div class="checkbox-terms-section">
+                        <div class="check-box-section">
+                        <input type="checkbox" value="">
+                        </div>
+                    <div class="agree-term">
+                       <label for="agree">I agree with <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                </div>
+                    <button>Send your Massage</button>
+            </div>
+
+        </form>
+      </section>
+
+
+           <!-- star journey section -->
+         <section class="start-jorney">
+            <div class="journey-section container">
+                <div class="journey-heads">
+                    <h2>Start Your Real Estate Journey Today</h2>
+                    <p>Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Hayle is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
+                </div>
+                <div class="journey-btn">
+                    <button>Explore Properties</button>
+                </div>
+            </div>
+
+         </section>
+
+         <!-- Footer Section -->
+          <footer>
+            <div class="footer-section container">
+                <div class="f-logo-and-chat">
+                    <div class="logo">
+                    <img src="/images/logo.png" alt="f-logo-image">
+                    <h3>Hayle Real State</h3>
+                    </div>
+                    <div class="f-chat">
+                        <input type="email" placeholder="Enter Your Email">
+                        <i class="fa-solid fa-paper-plane sent-icon"></i>
+                        <i class="fa-regular fa-envelope email-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Footer Links -->
+                 <div class="footer-links">
+                    <div class="f-link">
+                        <span>Home</span>
+                        <a href="#">Hero Section</a>
+                        <a href="#">Features</a>
+                        <a href="#">Properties</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">FAQ's</a>    
+                    </div>
+
+                    <!--  -->
+                    <div class="f-link">
+                        <span>About Us</span>
+                        <a href="#">Our Story</a>
+                        <a href="#">Our Works</a>
+                        <a href="#">How it Works</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Our Clients</a>    
+                    </div>
+                    <div class="f-link">
+                        <span>Properties</span>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Catagories</a>  
+                    </div>
+
+                    <div class="f-link">
+                        <span>Services</span>
+                        <a href="#">Valuation Mastery</a>
+                        <a href="#">Strategic Marketing</a>
+                        <a href="#">Negotiation Wizardry</a>
+                        <a href="#">Closing Success</a>
+                        <a href="#">Property Management</a>    
+                    </div>
+
+                    <div class="f-link">
+                        <span>Contact Us</span>
+                        <a href="#">Contact Form</a>
+                        <a href="#">Our Offices</a>  
+                    </div>
+                 </div>
+            </div>
+          </footer>
+
+          <!-- Social Icons footer section -->
+           <div class="social-icons-footer container">
+            <div class="copyright-section"> 
+                <p>&copy;2024 Hayle All Rights Reserved.</p>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="social-media-icons">
+                <div class="social-media-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="social-media-icon">
+                    <i class="fa-brands fab fa-linkedin-in"></i>
+                </div>
+                <div class="social-media-icon">
+                    <i class="fa-brands fab fab fa-twitter"></i>
+                </div>
+                <div class="social-media-icon">
+                   <i class="fa-brands fab fab fab fa-youtube"></i>
+                </div>
+            </div>
+           </div>
+    <script>
+        const hamburger = document.querySelector('.hamburger-sign');
+        const mobileMenu = document.querySelector(".mobile-menu-ul");
+        const icons = document.querySelectorAll("i");
+
+        hamburger.addEventListener("click", function (event) {
+            const isVisible = mobileMenu.getAttribute('data-visible');
+            if (isVisible == "true") {
+                // qari hiding
+                mobileMenu.setAttribute('data-visible', "false");
+                icons[0].setAttribute('data-visible', "true");
+                icons[1].setAttribute('data-visible', "false");
+            } else if (isVisible == "false") {
+                // soo bandhig showing
+                mobileMenu.setAttribute('data-visible', "true");
+                icons[0].setAttribute('data-visible', "false");
+                icons[1].setAttribute('data-visible', "true");
+            }
+        });
+</script>
+</body>
+</html>
